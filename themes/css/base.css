@@ -1,0 +1,268 @@
+#mainBody {
+	border-top:2px solid #dedede; 
+	padding-top: 18px;
+	}
+	
+#carouselBlk,#header{
+	background: url(../images/headerRepeat.png) repeat-x 0 0 #f7f7f7;
+	}
+	
+/*for amazing deal and product in stock*/
+.note{
+	color:#ffffff;
+	background-color: #A52A2A;
+	margin-right: 850px;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin-top: 20px;
+	margin: 40px;
+	text-align: center;
+}
+
+.instock{
+	color:#ffffff;
+	background-color: #A52A2A;
+	margin-right: 850px;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin-top: 300px;
+	margin:20px;
+	text-align: center;
+}
+
+#logoArea, #logoArea a{
+	line-height:49px;
+
+	}
+	.brand {
+	background-color: #ffffff;
+	height: 70px;
+	}
+#logoArea .btn, #logoArea .btn-group {
+	margin-top: 0;
+
+	}
+#logo {
+	padding-right:28px;
+	
+	}
+
+
+/* body--- */
+.thumbnail>a{
+	display:block; 
+	text-align:center
+	}
+.thumbnail h5,.thumbnail p{
+	text-align:center
+	}
+
+	
+/* Carousel  */
+#myCarousel{text-align:center; margin-bottom:0}
+#myCarousel .btn{
+	position:absolute; 
+	bottom:10%; right:17%; 
+	padding:2% 6%; 
+	z-index:9999;
+	}
+#myCarousel .carousel-caption{
+	display:none;
+	}
+#myCarousel.homCar .item img{
+	width:100%; 
+	max-height:506px;
+	}
+
+#myTabContent{text-align:justify}
+#compairTbl td{text-align:center;}
+#accordion2, #legalNotice, .justify, #mainCol{text-align:justify}
+#myCarousel .carousel-control{display:none}
+#myCarousel:hover .carousel-control{display:block}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color:#fff; 
+	background-color: #CF0007;
+	text-shadow: none;
+	}
+	.ancor {
+		margin: 10px;
+		display: inline-block;
+    list-style: none;
+    padding: 0 1px;
+	font-family: arail black;
+	font-size: 1.3em;
+	
+	}
+	.ancor ul li{
+		 display: inline-block;
+		width: 60px;
+		margin: 5px;
+		list-style: none;
+		padding: 0 2px;
+	}
+	.andriod{
+		color: green;
+	}
+	.samsung{
+		color: blue;
+	}
+	
+	.ancorbuttom {
+	margin: 10px;
+    list-style: none;
+    padding: 0 1px;
+	font-family: arail black;
+	font-size: 1.3em;
+	text-align: center;
+	
+	}
+	.ancorbuttom ul li{
+		 display: inline-block;
+		width: 60px;
+		margin: 5px;
+		list-style: none;
+		padding: 0 2px;
+	}
+	.driod{
+		color: green;
+	}
+	.sam{
+		color: blue;
+	}
+	
+/* Footer section--------------- */
+#footerSection {
+	background: #A52A2A;
+	color: white;
+	padding: 28px 0 44px;
+	margin-top: 20px;
+	border-top: 1px solid #444;
+	}
+#footerSection a{
+	color:#ccc; 
+	font-size:11px; 
+	padding:0; 
+	line-height:24px; 
+	display:block; 
+	}
+#footerSection a:hover{
+	color:#fff;  
+	}
+#footerSection  #socialMedia a{
+	min-width:25px; 
+	display:inline;
+	margin-right:6px; 
+	text-align:center; 
+	line-height:1.5em;}
+#socialMedia img{
+	max-width:60px;
+	}
+#footerSection  #socialMedia a:hover{
+	background:none;
+	}
+/* footer End */
+
+
+
+.navbar .nav > li > a {
+	padding:10px;
+	color: #ff0000;
+	text-shadow: none;
+	font-size: 16px;
+	}
+.navbar .nav > li > a:hover{
+	color:#ff0000
+	}
+#logoArea, #logoArea a{
+	outline:none;
+	}
+.alignR .checkbox input[type="checkbox"] {float: right;margin: 4px 0 8px 11px;}
+
+.navbar .nav.pull-right, #sideManu {
+	overflow:hidden;
+	}
+#logoArea  #smallScreen {
+	margin: 21px 14px 0 0;
+	}
+	
+	#for{
+		border-radius: 20px 20px;
+	}
+.form{
+	margin-top:20px;
+}
+
+
+/* Responsive--------------------- */
+/* Large desktop */
+@media (min-width: 1020px) {  
+
+.note{
+	color:#ffffff;
+	background-color: #A52A2A;
+	margin-right: 650px;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin-top: 20px;
+	text-align:center;
+	margin-left: 5%;
+}
+.instock{
+	color:#ffffff;
+	background-color: #A52A2A;
+	margin-right: 300px;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin-top: 350px;
+	text-align:center;
+	margin-left: 30%;
+}
+
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.navbar .brand {float: none;text-align: center;}
+#sideManu,#topMenu{height:0}
+.navbar-search {margin-top: 8px;width: 100%;float: none;}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+#sideManu,#topMenu{height:0}
+.instock{
+	color:#ffffff;
+	background-color: #A52A2A;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin-top: 350px;
+	text-align:center;
+}
+}
+@media (min-width: 768px) and (max-width: 360px) {
+.navbar .brand {float: none;text-align: center;}
+#sideManu,#topMenu{height:0}
+.navbar-search {margin-top: 8px;width: 100%;float: none;}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+#sideManu,#topMenu{height:0}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.navbar .brand {float: none;text-align: center;}
+#header, #carouselBlk{margin: 0 -20px;}
+#sideManu,#topMenu{height:0}
+.navbar-search {margin-top: 8px;width: 100%;float: none;}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+
+ }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#header, #carouselBlk{margin: 0 -20px;}
+#sideManu, #topMenu{height:0}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+}
